@@ -1,0 +1,7408 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Lato-Regular;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.TTF);
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato-Light.TTF);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.TTF);
+}
+
+.Lato-Light {
+    font-family: Lato-Light;
+}
+
+.Lato-Bold {
+    font-family: Lato-Bold;
+}
+
+.teamSec {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+section.brand {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutSec {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Fingertips {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.completeHed {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.getInTouch {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.privacySec {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.termsSec {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signupModal h1 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: Lato-Light;
+}
+.getInTouch .card .row{
+    margin-bottom:0;
+}
+.signupModal .subsButton, .signupModal .subsButton:hover, .signupModal .subsButton:active, .signupModal .subsButton:focus {
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    background: #08B3E5;
+    color: white;
+    border-radius: 5px;
+}
+
+.signupModal .modal-close, .signupModal .modal-close:hover, .signupModal .modal-close:active, .signupModal .modal-close:focus {
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    background: #51aa33;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.signupModal a {
+    margin-top: 20px;
+}
+
+.carRusumeSec {
+    padding-top: 30px;
+}
+
+.carOlH1 {
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-family: Lato-Light;
+}
+
+.aplyJobH1 {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: Lato-Light;
+}
+
+/* .aplyJobH1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(72% - 25px);
+    margin-bottom: 390px;
+} */
+
+.file-path {
+    box-shadow: 0 0px 0 0 #4caf50 !important;
+    border-bottom: 0px solid grey !important;
+}
+
+header {
+    margin-bottom: 70px;
+}
+
+.carRusumeSec .input-field {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.aboutSec {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.carRusumeSec ol {
+    margin-left: -15px;
+}
+
+.aboutSec h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: Lato-Light;
+}
+
+/* .aboutSec h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(42% - 25px);
+    margin-bottom: 795px;
+} */
+
+.aboutSec h5 {
+    font-size: 22px;
+}
+
+.aboutSec p {
+    line-height: 35px;
+}
+
+.aboutSec img {
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    width: 170px;
+}
+
+.aboutSec h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: -25px;
+    font-family: Lato-Bold;
+}
+
+.aboutSec h3 {
+    font-size: 18px;
+    color: white;
+}
+
+.aboutSec .card {
+    margin-top: 70px;
+    margin-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background: #0FBED8;
+}
+
+.visMisSec {
+    background: #51aa330f;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.visMisSec h2 {
+    font-size: 35px;
+    font-family: Lato-Light;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* .visMisSec .vison::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: 329px;
+    margin-bottom: 245px;
+}
+
+.visMisSec .mison::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    right: 329px;
+    margin-bottom: 245px;
+} */
+
+.formCont i {
+    color: #51aa33;
+}
+
+.getInTouch button, .getInTouch button:hover, .getInTouch button:active, .getInTouch button:focus {
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    background: #08B3E5;
+    color: white;
+    border-radius: 5px;
+}
+
+nav .brand-logo .blackLogo {
+    width: 100px;
+}
+
+.getInTouch form {
+    height: 610px;
+}
+
+textarea {
+    resize: none;
+}
+
+.galSec img {
+    transition: 2.8s ease;
+}
+
+.galSec img:hover {
+    transform: scale(1.3);
+    transform: rotate(45deg);
+}
+
+.supplySec {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.supplySec h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: Lato-Light;
+}
+
+/* .supplyH1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: -120px;
+}
+
+.infraH1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: -1695px;
+} */
+
+.dairyProcSec h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Lato-Light;
+}
+
+/* .dairyProcSec h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: 390px;
+} */
+
+.dairyProcSec .card .card-title {
+    margin-top: 80px;
+}
+
+::-webkit-scrollbar {
+    background-color: #51aa33;
+    width: 7px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.firmingProcSec h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Lato-Light;
+}
+
+/* .firmingProcSec h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: -215px;
+} */
+
+.firmingProcSec .card .card-title {
+    margin-top: 50px;
+}
+
+.technological h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Lato-Light;
+}
+
+/* .technological h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: -820px;
+} */
+
+.firmingProcSec .card {
+    border: 2px solid #51aa33;
+}
+
+.whatsappCorn {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 55px;
+    z-index: 100000;
+}
+
+.callCorn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 55px;
+    z-index: 100000;
+}
+
+.procBg {
+    background-image: url('../images/ingreVector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.galSec h5 {
+    font-family: Lato-Bold;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.galSec button, .galSec button:hover, .galSec button:active, .galSec button:focus {
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    background: #14b5e3;
+    color: white;
+    border-radius: 5px
+}
+
+.mugdhAppSec h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: Lato-Light;
+}
+
+.mugdhAppSec h2 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    color: #14b5e3;
+}
+
+.mugdhAppSec h3 {
+    font-size: 25px;
+}
+
+.mugLogo {
+    width: 350px;
+}
+
+.getInTouch h1 {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Lato-Light;
+}
+
+.privacySec {
+    padding:40px 0;
+}
+
+.privacySec h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Lato-Light;
+}
+
+/* .privacySec h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: 785px;
+} */
+
+.privacySec h2 {
+    font-size: 30px;
+    font-family: Lato-Light;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.termsSec {
+    padding: 40px 0;
+}
+
+.termsSec h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Lato-Light;
+}
+
+/* .termsSec h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: 785px;
+} */
+
+.termsSec h2 {
+    font-size: 30px;
+    font-family: Lato-Light;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+footer .footerSocial {
+    margin-top: 70px;
+}
+
+footer .footerSocial i {
+    font-size: 30px;
+    color: #fff;
+}
+
+footer .copRight {
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.ourFarm button, .ourFarm button:hover, .ourFarm button:active, .ourFarm button:focus {
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    background: #08B3E5;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background-image: url("../images/footer-banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.galSec {
+    padding: 40px 0 40px 0;
+    background: #e8e8e836;
+}
+
+.galSec h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: Lato-Light;
+}
+
+/* .galSec h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: -1690px;
+} */
+
+.benefitSec h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: Lato-Light;
+}
+
+.benefitSec h2 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.benefitSec ul {
+    font-size: 25px;
+}
+
+.benefitSec .card {
+    padding: 10px 40px;
+}
+
+.whyMoo h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Lato-Light;
+}
+
+/* .whyMoo h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: -290px;
+} */
+
+.ourFarm {
+    padding: 50px 0;
+}
+
+.ourFarm h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-family: Lato-Light;
+}
+
+/* .ourFarm h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #51aa33;
+    bottom: 0;
+    left: calc(50% - 25px);
+    margin-bottom: -780px;
+} */
+
+.testSec h1 {
+    margin-top: 0px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: Lato-Light;
+}
+
+.testSec {
+    background-color: #e7e7e7;
+    padding: 50px 0;
+}
+
+.testSec img {
+    width: 150px !important;
+    border-radius: 50%;
+    margin-left: 30%;
+    border: 3px solid #4e4b4b38
+}
+
+.testSec h2 {
+    font-size: 21px;
+    font-family: Lato-Bold;
+    margin-top: 20px;
+}
+
+.testSec h3 {
+    font-size: 19px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.testSec em {
+    font-size: 16px;
+}
+
+.socialSec .contNow {
+    background: #08B3E5;
+    font-size: 20px;
+    border-radius: 30px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+.bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+    position: absolute;
+    top: 45%;
+    height: 100px;
+    width: 45px;
+    background: #ffffff8a !important;
+    box-shadow: 5px 5px 5px #80808017;
+}
+
+.bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+    position: absolute;
+    font-size: 130px;
+    margin-top: -110px;
+    margin-left: -20px;
+    color: white;
+}
+
+.bannerSec .owl-carousel .owl-next {
+    right: 0px;
+}
+
+.bannerSec .owl-carousel .owl-prev {
+    left: 0px;
+}
+
+.bannerSec .owl-carousel .owl-dots {
+    display: none;
+}
+
+.socialSec {
+    background: #51aa33;
+    color: white;
+    font-size: 25px;
+    height: 110px;
+    line-height: 10px;
+    font-family: Lato-Light;
+}
+
+.socialSec .enquiryCol img {
+    width: 35px;
+    padding-top: 35px;
+    MARGIN-RIGHT: 20px;
+    vertical-align: sub;
+}
+
+.socialSec .contRow {
+    margin-top: 35px;
+}
+
+.socialSec ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.socialSec .fa-phone-alt, .socialSec .fa-envelope {
+    font-size: 30px;
+}
+
+.socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+    font-size: 35px;
+    vertical-align: sub;
+}
+
+.whyMoo img {
+    width: 90px;
+}
+
+.whyMoo img+p {
+    margin-bottom: -17px;
+}
+
+.whyMoo .row div {
+    border-right: 1px dashed #ccc;
+}
+
+.whyMoo .row div:last-child {
+    border-right: 0px dashed #ccc;
+}
+
+.newsLetterSec {
+    background: #51aa33;
+    padding: 40px 0;
+    color: white;
+    height: 140px;
+}
+
+.newsLetterSec button, .newsLetterSec button:hover, .newsLetterSec button:active, .newsLetterSec button:focus {
+    background: transparent;
+    border: 1px dashed;
+    padding: 0px 40px;
+    font-size: 30px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.newsLetterSec .row {
+    margin-bottom: 0;
+}
+
+.testSec .owl-carousel .owl-prev, .testSec .owl-carousel .owl-next {
+    position: absolute;
+    top: 65%;
+    height: 100px;
+    width: 45px;
+    background: transparent;
+    box-shadow: 0px 0px 0px #80808017;
+}
+
+.testSec .owl-carousel .owl-prev span, .testSec .owl-carousel .owl-next span {
+    position: absolute;
+    font-size: 70px;
+    margin-top: -110px;
+    margin-left: -20px;
+    color: #605d5d;
+}
+
+.testSec .owl-carousel .owl-next {
+    right: -40px;
+}
+
+.testSec .owl-carousel .owl-prev {
+    left: -20px;
+}
+
+.testSec .owl-carousel .owl-dots {
+    display: none;
+}
+
+.contMap iframe {
+    height: 330px;
+}
+
+.acceptCheckRsm {
+    text-align: center;
+}
+
+.carBtnSbt {
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    background: #08B3E5;
+    color: white;
+    border-radius: 5px;
+}
+
+.carSecondRow ol {
+    margin-left: -20px;
+}
+
+.termsSec ol {
+    margin-left: -20px;
+}
+
+.founderChild {
+    background: #27611726;
+    border-radius: 10px;
+    padding-top: 40px !important;
+    height: 560px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    overflow: hidden;
+}
+
+.mentorChild {
+    background: #d7d7d75e;
+    border-radius: 10px;
+    padding-top: 40px !important;
+    height: 560px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    overflow: hidden;
+}
+
+.navbarFixed {
+    position: fixed;
+    background-color: #08B3E5;
+    height: 70px;
+    z-index: 10;
+    width: 100%;
+    transition: 1s;
+}
+
+.navbarFixed .desktpUl li a {
+    color: #ffffff;
+}
+
+.navbarFixed .brand-logo img {
+    width: 100px;
+}
+
+.d-none {
+    display: none;
+}
+
+.teamSec h1 {
+    margin-bottom: 30px;
+}
+
+.teamSec h2 {
+    font-size: 35px;
+    font-family: Lato-Bold;
+}
+
+.teamSec h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.teamSec .founder img {
+    border-radius: 10px;
+    border: 3px solid #08B3E5;
+    margin-bottom: -20px;
+}
+
+.teamSec .mentors img {
+    border-radius: 10px;
+    border: 3px solid #08B3E5;
+    margin-bottom: -20px;
+}
+
+.footerLast {
+    background: #204e14;
+    padding: 20px 0 1px 0;
+}
+
+.fs-13 {
+    font-size: 15px !important;
+}
+
+.fs-20 {
+    font-size: 16px !important;
+    line-height: 30px;
+}
+
+.fs-30 {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.fs-40 {
+    font-size: 28px;
+}
+
+.fs-50 {
+    font-size: 30px;
+}
+
+.fs-60 {
+    font-size: 32px;
+}
+
+.fs-75 {
+    font-size: 58px;
+}
+
+.fs-100 {
+    font-size: 78px;
+}
+
+.fs-150 {
+    font-size: 120px;
+}
+
+.fs-200 {
+    font-size: 160px;
+}
+
+.m-1 {
+    margin: 4px;
+}
+
+.m-2 {
+    margin: 8px;
+}
+
+.m-3 {
+    margin: 16px;
+}
+
+.m-4 {
+    margin: 24px;
+}
+
+.m-5 {
+    margin: 48px;
+}
+
+.mt-1 {
+    margin-top: 4px;
+}
+
+.mt-2 {
+    margin-top: 8px;
+}
+
+.mt-3 {
+    margin-top: 16px;
+}
+
+.mt-4 {
+    margin-top: 24px;
+}
+
+.mt-5 {
+    margin-top: 48px;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.mb-1 {
+    margin-bottom: 4px;
+}
+
+.mb-2 {
+    margin-bottom: 8px;
+}
+
+.mb-3 {
+    margin-bottom: 16px;
+}
+
+.mb-4 {
+    margin-bottom: 24px;
+}
+
+.mb-5 {
+    margin-bottom: 48px;
+}
+
+.ms-1 {
+    margin-left: 4px;
+}
+
+.ms-2 {
+    margin-left: 8px;
+}
+
+.ms-3 {
+    margin-left: 16px;
+}
+
+.ms-4 {
+    margin-left: 24px;
+}
+
+.ms-5 {
+    margin-left: 48px;
+}
+
+.me-1 {
+    margin-right: 4px;
+}
+
+.me-2 {
+    margin-right: 8px;
+}
+
+.me-3 {
+    margin-right: 16px;
+}
+
+.me-4 {
+    margin-right: 24px;
+}
+
+.me-5 {
+    margin-right: 48px;
+}
+
+.p-0 {
+    padding: 0px !important;
+}
+
+.p-1 {
+    padding: 4px;
+}
+
+.p-2 {
+    padding: 8px;
+}
+
+.p-3 {
+    padding: 16px;
+}
+
+.p-4 {
+    padding: 24px;
+}
+
+.p-5 {
+    padding: 48px;
+}
+
+.pt-1 {
+    padding-top: 4px;
+}
+
+.pt-2 {
+    padding-top: 8px;
+}
+
+.pt-3 {
+    padding-top: 16px;
+}
+
+.pt-4 {
+    padding-top: 24px;
+}
+
+.pt-5 {
+    padding-top: 48px;
+}
+
+.pb-1 {
+    padding-bottom: 4px;
+}
+
+.pb-2 {
+    padding-bottom: 8px;
+}
+
+.pb-3 {
+    padding-bottom: 16px;
+}
+
+.pb-4 {
+    padding-bottom: 24px;
+}
+
+.pb-5 {
+    padding-bottom: 48px;
+}
+
+.ps-1 {
+    padding-left: 4px;
+}
+
+.ps-2 {
+    padding-left: 8px;
+}
+
+.ps-3 {
+    padding-left: 16px;
+}
+
+.ps-4 {
+    padding-left: 24px;
+}
+
+.ps-5 {
+    padding-left: 48px;
+}
+
+.pe-1 {
+    padding-right: 4px;
+}
+
+.pe-2 {
+    padding-right: 8px;
+}
+
+.pe-3 {
+    padding-right: 16px;
+}
+
+.pe-4 {
+    padding-right: 24px;
+}
+
+.pe-5 {
+    padding-right: 48px !important;
+}
+
+.FruitSec .fruVege {
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+}
+
+.aboutBanner h1 {
+    font-size: 70px;
+}
+
+.aboutBanner span {
+    font-size: 60px;
+}
+
+.galSec .card {
+    padding: 20px 30px 10px 30px;
+    border-radius: 5px;
+    background: #e8e8e8;
+}
+
+.FruitSec h1 {
+    font-size: 80px;
+}
+
+.FruitSec span {
+    font-size: 60px;
+}
+
+.team h2 {
+    font-size: 30px;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.gallery .row:last-child img {
+    transition: 5s;
+    border: 5px solid #b3b0b073;
+    border-radius: 10px;
+}
+
+.gallery .row:last-child img:hover {
+    transform: scale(1.3);
+}
+
+.dairyProcSec img {
+    transition: 5s;
+}
+
+.dairyProcSec img:hover {
+    transform: scale(1.3);
+}
+
+.firmingProcSec img {
+    transition: 5s;
+}
+
+.firmingProcSec img:hover {
+    transform: scale(1.3);
+}
+
+.formCont [type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #276117 !important;
+    background-color: #276117 !important;
+}
+
+.carousel.carousel-slider.clientCaro .carousel-item h2 {
+    font-size: 30px;
+}
+
+.carousel.clientCaro {
+    height: 550px;
+}
+
+.carousel.clientCaro .carousel-item>img {
+    width: auto;
+    border: 2px solid white;
+}
+
+.carousel.carousel-slider.clientCaro .carousel-item p {
+    font-size: 18px;
+}
+
+.clientWord {
+    background-image: url('../images/clientBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul a:hover {
+    background-color: rgb(39 97 23 / 11%) !important;
+}
+
+.carousel.clientCaro .carousel-item.active {
+    width: 500px !important;
+    margin-top: 0px !important;
+    padding: 0 50px;
+}
+
+.carousel.clientCaro .carousel-item {
+    width: 500px !important;
+    margin-top: 0px !important;
+    padding: 0 50px;
+}
+
+.Fingertips h1 {
+    margin-top: 200px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.carousel.aboutCaro {
+    height: 700px;
+}
+
+.carousel.aboutCaro .carousel-item {
+    width: 550px !important;
+    margin-top: -300px;
+    padding: 50px;
+}
+
+.text-italic, .font-italic {
+    font-style: italic;
+}
+
+.carH1Row h1 {
+    margin-bottom: -10px;
+}
+
+.privacy h1 {
+    margin-bottom: -10px;
+}
+
+.terms h1 {
+    margin-bottom: -10px;
+}
+
+.mugdhGetApp button {
+    width: 270px;
+    height: 70px;
+}
+
+.mugdhGetApp h2 {
+    margin-top: 150px;
+}
+
+.getInTouch {
+    margin-bottom: 60px;
+}
+
+.getInTouch h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.d-block {
+    display: block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mooFarm li {
+    padding: 50px 5px;
+}
+
+.bg-mugdh, .bg-mugdh:hover, .bg-mugdh:active, .bg-mugdh:focus {
+    background: rgb(20 181 226);
+}
+
+.text-mugdh, .text-mugdh:hover, .text-mugdh:active, .text-mugdh:focus {
+    color: rgb(20 181 226);
+}
+
+.mooSpring li {
+    padding: 20px 5px;
+}
+
+.farmerBg {
+    background-image: url("../images/farmerFarm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px !important;
+}
+
+.farmerBg .card {
+    background: #ffffff75;
+    width: fit-content;
+    margin-left: 57%;
+}
+
+.farmerBg ul li:before, .retailerBg ul li:before {
+    content: '✓ ';
+}
+
+.retailerBg {
+    background-image: url("../images/happyFamily.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px !important;
+}
+
+.retailerBg .card {
+    background: #3e3e3eb5;
+    width: fit-content;
+    margin-left: 7%;
+}
+
+.bg-transparent, .bg-transparent:hover, .bg-transparent:focus, .bg-transparent:active {
+    background: transparent !important;
+}
+
+textarea {
+    height: 200px;
+}
+
+.rounded-10 {
+    border-radius: 10px !important;
+}
+
+.rounded-20 {
+    border-radius: 20px !important;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-250 {
+    width: 250px;
+}
+
+.bg-dark-blue {
+    background: #51aa33;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.contMap {
+    height: 610px;
+}
+
+.socIconContUl li {
+    margin: 0 10px;
+}
+
+.phoneWebMail li {
+    margin: 10px 0;
+}
+
+[type="checkbox"]+span:not(.lever) {
+    font-size: 25px;
+}
+
+.uplCarer {
+    width: 200px;
+    background: #59854e !important;
+}
+
+.formCont .btn-flat:hover, .formCont .btn-flat:focus, .formCont .btn-flat:active {
+    background-color: transparent !important;
+}
+
+.bg-light-grey {
+    background: #F7F9FC;
+}
+
+.border-light-grey2 {
+    border: 2px solid #ced4da;
+}
+
+.g-0 {
+    padding: 0 !important;
+}
+
+.border {
+    border: 1px solid grey;
+}
+
+.border-light-grey {
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.border-grey {
+    border: 1px solid grey;
+}
+
+.rounded-30 {
+    border-radius: 30px;
+}
+
+.whatwedo {
+    width: 400px;
+    padding: 15px 30px 48px 30px;
+    border-radius: 50px;
+    cursor: none;
+}
+
+.pdnCardgrn {
+    padding: 0 100px;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.fileUplo {
+    background: #51aa33;
+    height: 40px !important;
+    line-height: 40px !important;
+    border-radius: 5px;
+}
+
+.getInTouch .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black !important;
+    background-color: #f7f9fc61;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: Lato-Light;
+}
+
+.carRusumeSec .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black !important;
+    background-color: #f7f9fc61;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: Lato-Light;
+}
+
+.signupModal .form-control {
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    line-height: 40px;
+    color: #000000 !important;
+    background-color: #c7c7c814;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: Lato-Light;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #80808091 !important;
+    background-color: #f7f9fc61;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 2.5rem;
+    padding-right: 50px;
+}
+
+nav ul.desktpUl a {
+    padding: 0 20px;
+    border-radius: 5px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.signupModal .row {
+    margin-bottom: 0;
+}
+
+.signupModal .input-field {
+    margin-bottom: 0;
+}
+
+.signupModal button {
+    margin-top: 20px;
+}
+
+.modal {
+    width: 25% !important;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-small, .btn-floating, .dropdown-content, .collapsible, .sidenav {
+    box-shadow: none !important;
+}
+
+.lato-light {
+    font-family: Lato-Light;
+}
+
+.lato-bold {
+    font-family: Lato-Bold;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.brand-logo {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 120px;
+}
+
+.desktpUl li a {
+    font-size: 16px;
+    color: #123501;
+}
+
+header nav {
+    position: fixed;
+    background-color: #08B3E5;
+    height: 70px;
+    z-index: 10;
+    width: 100%;
+    transition: 1s;
+    padding: 0 350px;
+}
+
+header nav a {
+    color: white !important;
+}
+
+.text-blue {
+    color: #51aa33;
+}
+
+.desktpUl {
+    z-index: 1000;
+    position: relative;
+    margin-right: 0;
+    margin-top: 12px;
+}
+
+.logo {
+    z-index: 10;
+}
+
+.dairyProcSec {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.dairyProcSec .card {
+    border-radius: 30px;
+    border: 2px solid #51aa33;
+}
+
+.dairyProcSec .card-image {
+    border-radius: 30px;
+}
+
+.firmingProcSec {
+    padding-top: 0%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.firmingProcSec .card {
+    border-radius: 30px;
+}
+
+.firmingProcSec .card-image {
+    border-radius: 30px;
+}
+
+.card .card-reveal {
+    background-color: #8a7f7f00 !important;
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%), #000000e0);
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.bg-green, .bg-green:hover, .bg-green:active, .bg-green:focus {
+    background: #22E4AC !important;
+}
+
+.text-green {
+    color: #22E4AC;
+}
+
+.text-light-green {
+    color: #4e863c;
+}
+
+.text-capitalize, .text-capitalize:hover, .text-capitalize:focus, .text-capitalize:active {
+    text-transform: capitalize !important;
+}
+
+.missionVision {
+    background-image: url(../images/missionBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 80px;
+}
+
+.aboutIndex {
+    background-image: url('../images/aboutIndBanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 80px;
+}
+
+.aboutBanner .left {
+    padding-top: 200px;
+    background: #f7f6f5;
+    height: 848px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+}
+
+.aboutBanner .right {
+    height: 848px;
+    background-color: rgb(223 220 217);
+    padding: 200px 80px 0 150px;
+}
+
+.aboutBanner p {
+    line-height: 40px;
+}
+
+.FruitSec .left {
+    padding: 10px 0px 0px 0px;
+    background: #f7f6f5;
+    height: 600px;
+}
+
+.FruitSec .left img {
+    position: absolute;
+    margin-top: 78px;
+    width: 42%;
+}
+
+.FruitSec .right {
+    height: 600px;
+    background-color: rgb(223 220 217);
+    padding: 30px 80px 0 150px;
+}
+
+footer {
+    padding: 30px 0 0px 0;
+    border-top: 3px solid #08B3E5;
+}
+
+.footerMenu li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+}
+
+footer .footerMenu li:after {
+    content: '|';
+    margin-left: 12px;
+}
+
+footer .footerMenu li:last-child::after {
+    content: '';
+}
+
+.footerSocial li {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer p.addres {
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+footer p.eml {
+    margin-top: -20px;
+    font-size: 16px;
+}
+
+.moveTop {
+    height: 55px;
+    width: 55px;
+    background: #08B3E5;
+    border-radius: 50%;
+    border: 1px solid #08B3E5;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -65px;
+    left: 48.5%;
+    position: absolute;
+}
+
+.moveTop i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.cardImgNo {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: -40px;
+    right: 13px;
+}
+
+footer .row {
+    margin-bottom: 0;
+}
+
+@media (max-width:300px) {
+    .carBtnSbt,
+    .carBtnSbt:hover,
+    .carBtnSbt:active,
+    .carBtnSbt:focus {
+        height: 25px;
+        line-height: 25px;
+        width: 100px !important;
+        border-radius: 2px;
+        font-size: 8px;
+        margin-top:0px;
+    }
+    .fileUplo,
+    .fileUplo:hover,
+    .fileUplo:active,
+    .fileUplo:focus{
+        height: 25px !important;
+        line-height: 25px !important;
+        width: 100px !important;
+        border-radius: 2px;
+        font-size: 8px;
+        margin-top:0px;
+    }
+    .brand-logo {
+        margin-top: -6px;
+    }
+    nav .sidenav-trigger i {
+        height: 39px;
+        line-height: 39px;
+    }
+    .whyMoo img+p {
+        margin-bottom: -15px;
+        line-height: 16px;
+    }
+    .ourFarm button, .ourFarm button:hover, .ourFarm button:active, .ourFarm button:focus {
+        height: 25px;
+    line-height: 25px;
+    width: 100px;
+    border-radius: 2px;
+    font-size: 8px;
+    margin-top: -20px;
+    }
+    .copyrightLi{
+        margin-left:30px;
+    }
+    footer .footerSocial {
+        display: none;
+    }
+
+
+
+    .card .card-reveal {
+        padding: 15px;
+    }
+
+
+
+
+
+    .getInTouch button, .getInTouch button:hover, .getInTouch button:active, .getInTouch button:focus{
+        height: 25px;
+        line-height: 25px;
+        width: 100px;
+        border-radius: 2px;
+        font-size: 8px;
+        margin-top: 0px;
+    }
+
+
+
+
+    .dairyProcSec .card {
+        border-radius: 5px;
+        border: 1px solid #51aa33;
+    }
+    .firmingProcSec .card {
+        border-radius: 5px;
+        border: 1px solid #51aa33;
+    }
+.formCarRow .row{
+    margin-bottom: 13px;
+}
+    .getInTouch .p-5 {
+        padding: 20px;
+    }
+
+    .getInTouch .fa-2x {
+        font-size: 15px;
+    }
+    .navbarFixed .brand-logo img {
+        width: 50px;
+    }
+    header nav {
+        padding: 0 0px;
+        height: 35px;
+    }
+    nav .brand-logo .blackLogo {
+        width: 50px;
+    }
+    .desktpUl {
+        margin-top: 13px;
+    }
+    header {
+        margin-bottom: 35px;
+    }
+    .aboutSec p {
+        line-height: 17px;
+    }
+    .navbarFixed {
+        height: 35px;
+    }
+    .aboutCol9 {
+        padding-right: 10px !important;
+    }
+
+    .aboutSec img {
+        border: 1px solid #ffffff;
+        width: 120px;
+    }
+
+    .getInTouch .row {
+        margin-bottom: 0px;
+    }
+
+    .contMap iframe {
+        height: 200px;
+    }
+
+    .getInTouch h1 {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .phoneWebMail .me-3 {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    textarea {
+        height: 130px;
+    }
+    .carRusumeSec {
+        padding-top: 0px;
+    }
+
+    .aplyJobH1 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.formCarRow{
+    margin-bottom: 0px;
+}
+
+
+    .privacySec h1 {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: -6px;
+    }
+
+    .privacySec h2 {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 340px;
+        margin-top: -20px;
+    }
+
+    .getInTouch .contMap {
+        height: 400px;
+    }
+
+    .privacySec {
+        padding: 20px 0;
+    }
+
+
+    .termsSec h1 {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: -6px;
+    }
+
+    .termsSec {
+        padding: 20px 0;
+    }
+
+
+    .termsSec h2 {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 10px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .firmingProcSec .card .card-image {
+        height: 260px;
+        border-radius: 5px;
+    }
+
+
+    .dairyProcSec h1 {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .dairyProcSec .card .card-image {
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 0;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .cardImgNo {
+        font-size: 14px;
+        top: -10px;
+        right: 10px;
+    }
+
+    .technological h1 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .firmingProcSec .card .card-title {
+        margin-top: 0;
+    font-size: 16px;
+    line-height: normal;
+    }
+
+    .carOlH1 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: -10px;
+    }
+
+    .aboutSec h5 {
+        font-size: 10px;
+    line-height: 14px;
+    }
+
+    .aboutSec .card {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        margin-left: 0px;
+        width: 210px;
+        margin-left: 6%;
+    }
+
+    .aboutSec h3 {
+        font-size: 12px;
+    }
+
+    .aboutSec h2 {
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: -15px;
+    }
+
+    .aboutSec {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    .visMisSec h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+.visMisSec p{
+    text-align: justify;
+}
+    .visMisSec {
+        padding-top: 30px;
+        padding-bottom: 1px;
+    }
+
+    .supplySec h1 {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+
+    .ourFarm h1 {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+
+
+    .galSec h1 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    footer .footerMenu li:after {
+        margin-left: 4px;
+    }
+.newsLetterSec p{
+    font-size: 8px;
+}
+    .galSec h5 {
+        font-size: 8px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        display: none;
+    }
+
+    footer p.addres {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    footer p.eml {
+        margin-top: -24px;
+        font-size: 10px;
+        line-height: 40px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+    footer {
+        padding: 10px 0 0px 0;
+        border-top: 1px solid #08B3E5;
+    }
+    .callCorn {
+        width: 20px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .whatsappCorn {
+        width: 20px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .moveTop {
+        height: 25px;
+        width: 25px;
+        margin-top:-22px;
+    }
+
+    .moveTop i {
+        font-size: 10px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 8px;
+        height: 20px;
+        line-height: 16px;
+        margin-top: 10px;
+        padding: 0px 2px;
+        width: 50px;
+    }
+
+    .newsLetterSec {
+        height: 40px;
+        padding: 0px 0;
+    }
+
+    .galSec {
+        padding:20px 0 0px 0;
+    }
+
+    .ourFarm {
+        padding:20px 0;
+    }
+    .footerMenu li {
+        padding: 1px;
+        font-size: 8px;
+    }
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 12px;
+        padding-top: 10px;
+        MARGIN-RIGHT: 5px;
+    }
+
+    .socialSec {
+        font-size: 10px;
+        height: 40px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 16px;
+    }
+
+    .socialSec .contNow {
+        font-size: 10px;
+        padding: 0px 20px;
+        border-radius: 30px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .whyMoo h1 {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .whyMoo img {
+        width: 20px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 40px;
+        margin-top: -31px;
+        margin-left: -7px;
+    }
+
+    .whyMoo p {
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 33%;
+        height: 40px;
+        width: 18px;
+    }
+
+    .socialSec .contRow {
+        margin-top: 8px;
+    }
+
+    .enquiryCol {
+        padding-top: 17px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 14px;
+    }
+
+    .teamSec h2 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 14px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 14px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 14px;
+    }
+
+    .aboutBanner span {
+        font-size: 14px;
+    }
+
+    .FruitSec h1 {
+        font-size: 14px;
+    }
+
+    .FruitSec span {
+        font-size: 14px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 14px;
+    }
+
+    .team h2 {
+        font-size: 14px;
+    }
+
+    .team p {
+        font-size: 14px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 250px;
+    }
+
+    .dairyProcSec {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .firmingProcSec img {
+        height: 260px;
+    }
+
+    .firmingProcSec {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+@media (min-width:301px) and (max-width:400px) {
+    footer {
+        background-position: left;
+    }
+    .galSec .card {
+        padding: 10px 10px 10px 10px;
+    }
+.enquiryCol{
+    display:none !important;
+}
+
+
+header .sidenav{
+    z-index: 1000000;
+}
+
+
+    .copyrightLi {
+        font-size: 12px;
+        margin-left: 35px;
+    }
+    .carBtnSbt,
+    .carBtnSbt:hover,
+    .carBtnSbt:active,
+    .carBtnSbt:focus {
+        height: 30px;
+        line-height: 30px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .fileUplo,
+    .fileUplo:hover,
+    .fileUplo:active,
+    .fileUplo:focus{
+        height: 30px !important;
+        line-height: 30px !important;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .brand-logo {
+        margin-top: -6px;
+        left: 59% !important;
+    }
+    nav .sidenav-trigger i {
+        height: 39px;
+        line-height: 39px;
+    }
+    .whyMoo img+p {
+        margin-bottom: -8px;
+        line-height: 10px;
+    }
+    .ourFarm button, .ourFarm button:hover, .ourFarm button:active, .ourFarm button:focus {
+        height: 30px;
+        line-height: 30px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .copyrightLi{
+        margin-left:30px;
+    }
+    footer .footerSocial {
+        display: none;
+    }
+
+
+
+    .card .card-reveal {
+        padding: 15px;
+    }
+
+    .socIconContUl li {
+        margin: 0 7px;
+    }
+
+    .sidenav li>a {
+        font-size: 10px !important;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 32px;
+    }
+
+    .getInTouch button, .getInTouch button:hover, .getInTouch button:active, .getInTouch button:focus{
+        height: 25px;
+        line-height: 25px;
+        width: 100px;
+        border-radius: 2px;
+        font-size: 8px;
+        margin-top: 0px;
+    }
+
+
+
+
+    .dairyProcSec .card {
+        border-radius: 5px;
+        border: 1px solid #51aa33;
+    }
+    .firmingProcSec .card {
+        border-radius: 5px;
+        border: 1px solid #51aa33;
+    }
+.formCarRow .row{
+    margin-bottom: 13px;
+}
+    .getInTouch .p-5 {
+        padding: 28px;
+    }
+
+    .getInTouch .fa-2x {
+        font-size: 20px;
+    }
+    .navbarFixed .brand-logo img {
+        width: 50px;
+    }
+    header nav {
+        padding:0 0px;
+        height: 35px;
+    }
+    nav .brand-logo .blackLogo {
+        width: 50px;
+
+    }
+    .desktpUl {
+        margin-top: 13px;
+    }
+    header {
+        margin-bottom: 35px;
+    }
+    .aboutSec p {
+        line-height: 24px;
+    }
+    .navbarFixed {
+        height: 35px;
+    }
+    .aboutCol9 {
+        padding-right: 10px !important;
+    }
+
+    .aboutSec img {
+        border: 1px solid #ffffff;
+        width: 120px;
+    }
+
+    .getInTouch .row {
+        margin-bottom: 0px;
+    }
+
+    .contMap iframe {
+        height: 200px;
+    }
+
+    .getInTouch h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .phoneWebMail .me-3 {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    textarea {
+        height: 130px;
+    }
+    .carRusumeSec {
+        padding-top: 0px;
+    }
+
+    .aplyJobH1 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.formCarRow{
+    margin-bottom: 0px;
+}
+
+
+    .privacySec h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: -6px;
+    }
+
+    .privacySec h2 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 410px;
+        margin-top: -20px;
+    }
+
+    .getInTouch .contMap {
+        height: 420px;
+    }
+
+    .privacySec {
+        padding: 20px 0;
+    }
+
+
+    .termsSec h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: -6px;
+    }
+
+    .termsSec {
+        padding: 20px 0;
+    }
+
+
+    .termsSec h2 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 14px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .firmingProcSec .card .card-image {
+        height: 260px;
+        border-radius: 5px;
+    }
+
+
+    .dairyProcSec h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .dairyProcSec .card .card-image {
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .cardImgNo {
+        font-size: 20px;
+        top: -20px;
+        right: 10px;
+    }
+
+    .technological h1 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .firmingProcSec .card .card-title {
+        margin-top: 0;
+    font-size: 16px;
+    line-height: normal;
+    }
+
+    .carOlH1 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        line-height: 23px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: -10px;
+    }
+
+    .aboutSec h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .aboutSec .card {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        margin-left: 0px;
+        width: 210px;
+        margin-left: 15%;
+    }
+
+    .aboutSec h3 {
+        font-size: 12px;
+    }
+
+    .aboutSec h2 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+
+    .aboutSec {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .visMisSec h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+.visMisSec p{
+    text-align: justify;
+}
+    .visMisSec {
+        padding-top: 30px;
+        padding-bottom: 1px;
+    }
+
+    .supplySec h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+
+    .ourFarm h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+
+
+    .galSec h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    footer .footerMenu li:after {
+        margin-left: 4px;
+    }
+.newsLetterSec p{
+    font-size: 10px;
+}
+    .galSec h5 {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        display: none;
+    }
+
+    footer p.addres {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    footer p.eml {
+        margin-top: -24px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+    footer {
+        padding: 10px 0 0px 0;
+        border-top: 2px solid #08B3E5;
+    }
+    .callCorn {
+        width: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .whatsappCorn {
+        width: 30px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .moveTop {
+        height: 35px;
+        width: 35px;
+        margin-top: -29px;
+        left: 46%;
+    }
+
+    .moveTop i {
+        font-size: 16px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 12px;
+        height: 30px;
+        line-height: 27px;
+        margin-top: 10px;
+        padding: 0px 5px;
+        width: 70px;
+    }
+
+    .newsLetterSec {
+        height: 50px;
+        padding: 0px 0;
+    }
+
+    .galSec {
+        padding:20px 0 10px 0;
+    }
+
+    .ourFarm {
+        padding:20px 0;
+    }
+    .footerMenu li {
+        padding: 1px;
+        font-size: 10px;
+    }
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 12px;
+        padding-top: 10px;
+        MARGIN-RIGHT: 5px;
+    }
+
+    .socialSec {
+        font-size: 10px;
+        height: 40px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 16px;
+    }
+
+    .socialSec .contNow {
+        font-size: 10px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    height: 26px;
+    line-height: 26px;
+    }
+
+    .whyMoo h1 {
+        font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .whyMoo img {
+        width: 20px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 50px;
+        margin-top: -40px;
+        margin-left: -7px;
+    }
+
+    .whyMoo p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 38%;
+        height: 50px;
+        width: 20px;
+    }
+
+    .socialSec .contRow {
+        margin-top: 7px;
+    }
+
+    .enquiryCol {
+        padding-top: 17px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 16px;
+    }
+
+    .teamSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 50px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 60px;
+    }
+
+    .aboutBanner span {
+        font-size: 40px;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 45px;
+    }
+
+    .team h2 {
+        font-size: 24px;
+    }
+
+    .team p {
+        font-size: 20px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 250px;
+    }
+
+    .dairyProcSec {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .firmingProcSec img {
+        height: 260px;
+    }
+
+    .firmingProcSec {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px) {
+    .carBtnSbt,
+    .carBtnSbt:hover,
+    .carBtnSbt:active,
+    .carBtnSbt:focus {
+        height: 30px;
+        line-height: 30px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .fileUplo,
+    .fileUplo:hover,
+    .fileUplo:active,
+    .fileUplo:focus{
+        height: 30px !important;
+        line-height: 30px !important;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .brand-logo {
+        margin-top: 4px;
+    }
+    nav .sidenav-trigger i {
+        height: 52px;
+        line-height: 52px;
+    }
+    .whyMoo img+p {
+        margin-bottom: -15px;
+        line-height: 16px;
+    }
+    .ourFarm button, .ourFarm button:hover, .ourFarm button:active, .ourFarm button:focus {
+        height: 30px;
+        line-height: 30px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .copyrightLi{
+        margin-left:30px;
+    }
+    footer .footerSocial {
+        display: none;
+    }
+
+
+
+    .card .card-reveal {
+        padding: 15px;
+    }
+
+
+
+
+    .getInTouch button, .getInTouch button:hover, .getInTouch button:active, .getInTouch button:focus{
+        height: 30px;
+        line-height: 30px;
+        width: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+.newsLetterSec p{
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+
+    .dairyProcSec .card {
+        border-radius: 5px;
+        border: 1px solid #51aa33;
+    }
+    .firmingProcSec .card {
+        border-radius: 5px;
+        border: 1px solid #51aa33;
+    }
+.formCarRow .row{
+    margin-bottom: 13px;
+}
+    .getInTouch .p-5 {
+        padding: 28px;
+    }
+
+    .getInTouch .fa-2x {
+        font-size: 25px;
+    }
+    .navbarFixed .brand-logo img {
+        width: 70px;
+    }
+    header nav {
+        padding:0 20px;
+        height: 50px;
+    }
+    nav .brand-logo .blackLogo {
+        width: 70px;
+    }
+    .desktpUl {
+        margin-top: 13px;
+    }
+    header {
+        margin-bottom: 50px;
+    }
+    .aboutSec p {
+        line-height: 24px;
+    }
+    .navbarFixed {
+        height: 50px;
+    }
+    .aboutCol9 {
+        padding-right: 10px !important;
+    }
+
+    .aboutSec img {
+        border: 1px solid #ffffff;
+        width: 120px;
+    }
+
+    .getInTouch .row {
+        margin-bottom: 0px;
+    }
+
+    .contMap iframe {
+        height: 200px;
+    }
+
+    .getInTouch h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .phoneWebMail .me-3 {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    textarea {
+        height: 130px;
+    }
+    .carRusumeSec {
+        padding-top: 0px;
+    }
+
+    .aplyJobH1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .privacySec h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: -6px;
+    }
+
+    .privacySec h2 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 410px;
+        margin-top: -20px;
+    }
+
+    .getInTouch .contMap {
+        height: 430px;
+    }
+
+    .privacySec {
+        padding: 20px 0;
+    }
+
+
+    .termsSec h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: -6px;
+    }
+
+    .termsSec {
+        padding: 20px 0;
+    }
+
+
+    .termsSec h2 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 14px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .firmingProcSec .card .card-image {
+        height: 260px;
+        border-radius: 5px;
+    }
+
+
+    .dairyProcSec h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .dairyProcSec .card .card-image {
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .cardImgNo {
+        font-size: 20px;
+        top: -20px;
+        right: 10px;
+    }
+
+    .technological h1 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .firmingProcSec .card .card-title {
+        margin-top: 0;
+    font-size: 16px;
+    line-height: normal;
+    }
+
+    .carOlH1 {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        line-height: 23px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: -10px;
+    }
+
+    .aboutSec h5 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .aboutSec .card {
+        padding-top: 20px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        margin-left: 0px;
+        width: 300px;
+        margin-left: 7%;
+    }
+
+    .aboutSec h3 {
+        font-size: 12px;
+    }
+
+    .aboutSec h2 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+
+    .aboutSec {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .visMisSec h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+.visMisSec p{
+    text-align: justify;
+}
+    .visMisSec {
+        padding-top: 30px;
+        padding-bottom: 1px;
+    }
+
+    .supplySec h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+
+    .ourFarm h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+
+
+    .galSec h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .galSec h5 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        display: none;
+    }
+
+    footer p.addres {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    footer p.eml {
+        margin-top: -24px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+    footer {
+        padding: 10px 0 0px 0;
+        border-top: 2px solid #08B3E5;
+    }
+    .callCorn {
+        width: 30px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .whatsappCorn {
+        width: 30px;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .moveTop {
+        height: 35px;
+        width: 35px;
+        margin-top: -29px;
+    }
+
+    .moveTop i {
+        font-size: 16px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 12px;
+        height: 30px;
+        line-height: 27px;
+        margin-top: 21px;
+        padding: 0px 10px;
+        width: 90px;
+    }
+
+    .newsLetterSec {
+        height: 70px;
+        padding: 0px 0;
+    }
+
+    .galSec {
+        padding:20px 0 10px 0;
+    }
+
+    .ourFarm {
+        padding:20px 0;
+    }
+    .footerMenu li {
+        padding: 3px;
+        font-size: 12px;
+    }
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 12px;
+        padding-top: 10px;
+        MARGIN-RIGHT: 5px;
+    }
+
+    .socialSec {
+        font-size: 12px;
+        height: 60px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 20px;
+    }
+
+    .socialSec .contNow {
+        font-size: 10px;
+        padding: 0px 20px;
+        border-radius: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .whyMoo h1 {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .whyMoo img {
+        width: 30px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 50px;
+        margin-top: -40px;
+        margin-left: -9px;
+    }
+
+    .whyMoo p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 38%;
+        height: 50px;
+        width: 20px;
+    }
+
+    .socialSec .contRow {
+        margin-top: 15px;
+    }
+
+    .enquiryCol {
+        padding-top: 17px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 16px;
+    }
+
+    .teamSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 50px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 60px;
+    }
+
+    .aboutBanner span {
+        font-size: 40px;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 45px;
+    }
+
+    .team h2 {
+        font-size: 24px;
+    }
+
+    .team p {
+        font-size: 20px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 250px;
+    }
+
+    .dairyProcSec {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .firmingProcSec img {
+        height: 260px;
+    }
+
+    .firmingProcSec {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width:601px) and (max-width:767px) {
+    .dairyProcSec .card {
+        border-radius: 10px;
+    }
+    .firmingProcSec .card {
+        border-radius: 10px;
+    }
+.formCarRow .row{
+    margin-bottom: 13px;
+}
+    .getInTouch .p-5 {
+        padding: 28px;
+    }
+
+    .getInTouch .fa-2x {
+        font-size: 25px;
+    }
+    .navbarFixed .brand-logo img {
+        width: 90px;
+    }
+    header nav {
+        padding: 0 50px;
+        height: 60px;
+    }
+    nav .brand-logo .blackLogo {
+        width: 90px;
+    }
+    .desktpUl {
+        margin-top: 13px;
+    }
+    header {
+        margin-bottom: 60px;
+    }
+    .aboutSec p {
+        line-height: 24px;
+    }
+    .navbarFixed {
+        height: 60px;
+    }
+    .aboutCol9 {
+        padding-right: 10px !important;
+    }
+
+    .aboutSec img {
+        border: 1px solid #ffffff;
+        width: 120px;
+    }
+
+    .getInTouch .row {
+        margin-bottom: 0px;
+    }
+
+    .contMap iframe {
+        height: 200px;
+    }
+
+    .getInTouch h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .phoneWebMail .me-3 {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    textarea {
+        height: 130px;
+    }
+    .carRusumeSec {
+        padding-top: 30px;
+    }
+
+    .aplyJobH1 {
+        font-size: 23px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    /* .aplyJobH1::after {
+        height: 2px;
+        left: calc(73.5% - 25px);
+        margin-bottom: 530px;
+    } */
+
+    .privacySec h1 {
+        font-size: 23px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .privacySec h2 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 430px;
+    }
+
+    .getInTouch .contMap {
+        height: 430px;
+    }
+
+    .privacySec {
+        padding: 30px 0;
+    }
+
+    /* .privacySec h1::after {
+        height: 2px;
+        margin-bottom: 785px;
+    } */
+
+    .termsSec h1 {
+        font-size: 23px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .termsSec {
+        padding: 30px 0;
+    }
+/*
+    .termsSec h1::after {
+        height: 2px;
+        margin-bottom: 785px;
+    } */
+
+    .termsSec h2 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 14px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 23px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* .firmingProcSec h1::after {
+        height: 2px;
+        margin-bottom: 70px;
+    } */
+
+    .firmingProcSec .card .card-image {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    /* .infraH1::after {
+        height: 2px;
+        margin-bottom: -1070px;
+    } */
+
+    .dairyProcSec h1 {
+        font-size: 23px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* .dairyProcSec h1::after {
+        height: 2px;
+        margin-bottom: 540px;
+    } */
+
+    .dairyProcSec .card .card-image {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 0;
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .cardImgNo {
+        font-size: 30px;
+        top: -20px;
+        right: 20px;
+    }
+
+    .technological h1 {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* .technological h1::after {
+        height: 2px;
+        margin-bottom: -410px;
+    } */
+
+    .firmingProcSec .card .card-title {
+        margin-top: 0;
+    font-size: 16px;
+    line-height: normal;
+    }
+
+    .carOlH1 {
+        font-size: 18px;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        line-height: 27px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .aboutSec h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .aboutSec .card {
+        margin-top: 90px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-left: 0px;
+    }
+
+    .aboutSec h3 {
+        font-size: 12px;
+    }
+
+    /* .aboutSec h1::after {
+        height: 2px;
+        left: calc(41% - 25px);
+        margin-bottom: 790px;
+    } */
+
+    .aboutSec h2 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+
+    .aboutSec {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .visMisSec h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    /* .visMisSec .mison::after {
+        height: 2px;
+        right: 200px;
+        margin-bottom: 290px;
+    }
+
+    .visMisSec .vison::after {
+        height: 2px;
+        left: 200px;
+        margin-bottom: 290px;
+    } */
+
+    .visMisSec {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .supplySec h1 {
+        font-size: 23px;
+        margin-top: 30px;
+    margin-bottom: 20px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    /* .supplyH1::after {
+        height: 2px;
+        margin-bottom: -20px;
+    }
+
+    .whyMoo h1::after {
+        margin-bottom: 90px;
+        height: 2px;
+    } */
+
+    .ourFarm h1 {
+        font-size: 23px;
+        margin-top: 0px;
+    margin-bottom: 20px;
+    }
+
+    /* .ourFarm h1::after {
+        height: 2px;
+        margin-bottom: -305px;
+    } */
+
+    .galSec h1 {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    /* .galSec h1::after {
+        height: 2px;
+        margin-bottom: -1040px;
+    } */
+
+    .galSec h5 {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
+    footer p.addres {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    footer p.eml {
+        margin-top: -20px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+
+    .callCorn {
+        width: 40px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .whatsappCorn {
+        width: 40px;
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .moveTop {
+        height: 40px;
+    width: 40px;
+    margin-top: -53px;
+    }
+
+    .moveTop i {
+        font-size: 16px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 16px;
+        height: 35px;
+        line-height: 30px;
+        margin-top:20px;
+    }
+
+    .newsLetterSec {
+        height: 100px;
+        padding: 15px 0;
+    }
+
+    .galSec {
+        padding:30px 0 20px 0;
+    }
+
+    .ourFarm {
+        padding:30px 0;
+    }
+
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 20px;
+        padding-top: 20px;
+        MARGIN-RIGHT: 10px;
+    }
+
+    .socialSec {
+        font-size: 16px;
+        height: 80px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 20px;
+    }
+
+    .socialSec .contNow {
+        font-size: 12px;
+        padding: 0px 21px;
+        border-radius: 20px;
+    }
+
+    .whyMoo h1 {
+        font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .whyMoo img {
+        width: 50px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 70px;
+        margin-top: -60px;
+        margin-left: -10px;
+    }
+
+    .whyMoo p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 40%;
+        height: 60px;
+        width: 30px;
+    }
+
+    .socialSec .contRow {
+        margin-top: 21px;
+    }
+
+    .enquiryCol {
+        padding-top: 13px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 16px;
+    }
+
+    .teamSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 50px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 60px;
+    }
+
+    .aboutBanner span {
+        font-size: 40px;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 45px;
+    }
+
+    .team h2 {
+        font-size: 24px;
+    }
+
+    .team p {
+        font-size: 20px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 500px;
+    }
+
+    .dairyProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .firmingProcSec img {
+        height: 500px;
+    }
+
+    .firmingProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+
+
+    .copyrightLi {
+        margin-left: 35px;
+    }
+
+
+
+
+
+
+
+    .dairyProcSec .card {
+        border-radius: 10px;
+    }
+    .firmingProcSec .card {
+        border-radius: 10px;
+    }
+.formCarRow .row{
+    margin-bottom: 13px;
+}
+    .getInTouch .p-5 {
+        padding: 28px;
+    }
+
+    .getInTouch .fa-2x {
+        font-size: 25px;
+    }
+    .navbarFixed .brand-logo img {
+        width: 90px;
+    }
+    header nav {
+        padding: 0 50px;
+        height: 60px;
+    }
+    nav .brand-logo .blackLogo {
+        width: 90px;
+    }
+    .desktpUl {
+        margin-top: 13px;
+    }
+    header {
+        margin-bottom: 60px;
+    }
+    .aboutSec p {
+        line-height: 24px;
+    }
+    .navbarFixed {
+        height: 60px;
+    }
+    .aboutCol9 {
+        padding-right: 50px !important;
+    }
+
+    .aboutSec img {
+        border: 1px solid #ffffff;
+        width: 120px;
+    }
+
+    .getInTouch .row {
+        margin-bottom: 0px;
+    }
+
+    .contMap iframe {
+        height: 290px;
+    }
+
+    .getInTouch h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .phoneWebMail .me-3 {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    .carRusumeSec {
+        padding-top: 30px;
+    }
+
+    .aplyJobH1 {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+
+
+    .privacySec h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .privacySec h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 520px;
+    }
+
+    .getInTouch .contMap {
+        height: 520px;
+    }
+
+    .privacySec {
+        padding: 30px 0;
+    }
+
+
+
+    .termsSec h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .termsSec {
+        padding: 30px 0;
+    }
+
+
+    .termsSec h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 14px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .firmingProcSec .card .card-image {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+
+
+    .dairyProcSec h1 {
+        font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+
+    .dairyProcSec .card .card-image {
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .cardImgNo {
+        font-size: 30px;
+        top: -20px;
+        right: 20px;
+    }
+
+    .technological h1 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .firmingProcSec .card .card-title {
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .carOlH1 {
+        font-size: 18px;
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        line-height: 27px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .aboutSec h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .aboutSec .card {
+        margin-top: 90px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-left: 0px;
+    }
+
+    .aboutSec h3 {
+        font-size: 12px;
+    }
+
+
+
+    .aboutSec h2 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+
+    .aboutSec {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .visMisSec h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .visMisSec {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .supplySec h1 {
+        font-size: 25px;
+        margin-top: 30px;
+    margin-bottom: 20px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .ourFarm h1 {
+        font-size: 25px;
+        margin-top: 0px;
+    margin-bottom: 20px;
+    }
+
+
+    .galSec h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+
+
+    .galSec h5 {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    footer p.addres {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    footer p.eml {
+        margin-top: -20px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+
+    .callCorn {
+        width: 40px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .whatsappCorn {
+        width: 40px;
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .moveTop {
+        height: 40px;
+    width: 40px;
+    margin-top: -53px;
+    }
+
+    .moveTop i {
+        font-size: 16px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 16px;
+        height: 35px;
+        line-height: 30px;
+        margin-top:20px;
+    }
+
+    .newsLetterSec {
+        height: 100px;
+        padding: 15px 0;
+    }
+
+    .galSec {
+        padding: 30px 0 25px 0;
+    }
+
+    .ourFarm {
+        padding:30px 0;
+    }
+
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 17px;
+        padding-top: 20px;
+        MARGIN-RIGHT: 10px;
+    }
+
+    .socialSec {
+        font-size: 16px;
+        height: 80px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 20px;
+    }
+
+    .socialSec .contNow {
+        font-size: 12px;
+        padding: 0px 30px;
+        border-radius: 20px;
+    }
+
+    .whyMoo h1 {
+        font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .whyMoo img {
+        width: 50px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 70px;
+        margin-top: -60px;
+        margin-left: -10px;
+    }
+
+    .whyMoo p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 40%;
+        height: 60px;
+        width: 30px;
+    }
+
+    .socialSec .contRow {
+        margin-top: 21px;
+    }
+
+    .enquiryCol {
+        padding-top: 13px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 16px;
+    }
+
+    .teamSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 50px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 60px;
+    }
+
+    .aboutBanner span {
+        font-size: 40px;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 45px;
+    }
+
+    .team h2 {
+        font-size: 24px;
+    }
+
+    .team p {
+        font-size: 20px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 500px;
+    }
+
+    .dairyProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .firmingProcSec img {
+        height: 500px;
+    }
+
+    .firmingProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+    .getInTouch .p-5 {
+        padding: 28px;
+    }
+
+    .getInTouch .fa-2x {
+        font-size: 25px;
+    }
+
+    header nav {
+        padding: 0 100px;
+    }
+
+    .desktpUl {
+        margin-top: 13px;
+    }
+
+    .aboutSec p {
+        line-height: 28px;
+    }
+
+    .aboutCol9 {
+        padding-right: 50px;
+    }
+
+    .aboutSec img {
+        border: 1px solid #ffffff;
+        width: 120px;
+    }
+
+    .getInTouch .row {
+        margin-bottom: 5px;
+    }
+
+    .contMap iframe {
+        height: 290px;
+    }
+
+    .getInTouch h1 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .phoneWebMail .me-3 {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    .carRusumeSec {
+        padding-top: 30px;
+    }
+
+    .aplyJobH1 {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+
+
+    .privacySec h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .privacySec h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 520px;
+    }
+
+    .getInTouch .contMap {
+        height: 520px;
+    }
+
+    .privacySec {
+        padding: 30px 0;
+    }
+
+    .termsSec h1 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .termsSec {
+        padding: 30px 0;
+    }
+
+
+    .termsSec h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 14px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .firmingProcSec .card .card-image {
+        height: 350px;
+    }
+
+
+    .dairyProcSec h1 {
+        font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+
+
+
+    .dairyProcSec .card .card-image {
+        height: 350px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .cardImgNo {
+        font-size: 30px;
+        top: -20px;
+        right: 20px;
+    }
+
+    .technological h1 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .firmingProcSec .card .card-title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .carOlH1 {
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .aboutSec h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .aboutSec .card {
+        margin-top: 90px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .aboutSec h3 {
+        font-size: 12px;
+    }
+
+
+
+    .aboutSec h2 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+
+    .aboutSec {
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    .visMisSec h2 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+
+    .visMisSec {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .supplySec h1 {
+        font-size: 25px;
+        margin-top: 30px;
+    margin-bottom: 20px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+
+    .ourFarm h1 {
+        font-size: 25px;
+        margin-top: 0px;
+    margin-bottom: 20px;
+    }
+
+
+    .galSec h1 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .galSec h5 {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    footer p.addres {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    footer p.eml {
+        margin-top: -20px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+
+    .callCorn {
+        width: 45px;
+    }
+
+    .whatsappCorn {
+        width: 45px;
+    }
+
+    .moveTop {
+        height: 50px;
+        width: 50px;
+        margin-top: -60px;
+    }
+
+    .moveTop i {
+        font-size: 24px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 16px;
+        height: 35px;
+        line-height: 30px;
+        margin-top:20px;
+    }
+
+    .newsLetterSec {
+        height: 100px;
+        padding: 15px 0;
+    }
+
+    .galSec {
+        padding: 30px 0 25px 0;
+    }
+
+    .ourFarm {
+        padding:30px 0;
+    }
+
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 20px;
+        padding-top: 20px;
+        MARGIN-RIGHT: 10px;
+    }
+
+    .socialSec {
+        font-size: 15px;
+        height: 80px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 20px;
+    }
+
+    .socialSec .contNow {
+        font-size: 12px;
+        padding:0px 40px;
+        border-radius: 20px;
+    }
+
+    .whyMoo h1 {
+        font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .whyMoo img {
+        width: 50px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 60px;
+    margin-top: -51px;
+    margin-left: -10px;
+    }
+
+    .whyMoo p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 40%;
+        height: 60px;
+        width: 30px;
+    }
+
+    .socialSec .contRow {
+        margin-top: 21px;
+    }
+
+    .enquiryCol {
+        padding-top: 13px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 16px;
+    }
+
+    .teamSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 50px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 60px;
+    }
+
+    .aboutBanner span {
+        font-size: 40px;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 45px;
+    }
+
+    .team h2 {
+        font-size: 24px;
+    }
+
+    .team p {
+        font-size: 20px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 500px;
+    }
+
+    .dairyProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .firmingProcSec img {
+        height: 500px;
+    }
+
+    .firmingProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width: 1201px) and (max-width:1400px) {
+    .getInTouch .p-5 {
+        padding: 28px;
+    }
+    footer .footerSocial {
+        margin-top: 40px;
+    }
+    .getInTouch .fa-2x {
+        font-size: 25px;
+    }
+
+    header nav {
+        padding: 0 100px;
+    }
+
+    .desktpUl {
+        margin-top: 13px;
+    }
+
+    .aboutSec p {
+        line-height: 28px;
+    }
+
+    .aboutCol9 {
+        padding-right: 50px;
+    }
+
+    .aboutSec img {
+        border: 1px solid #ffffff;
+        width: 120px;
+    }
+
+    .getInTouch .row {
+        margin-bottom: 5px;
+    }
+
+    .contMap iframe {
+        height: 290px;
+    }
+
+    .getInTouch h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .carRusumeSec {
+        padding-top: 30px;
+    }
+
+    .aplyJobH1 {
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+.formCarRow {
+    margin-bottom:0;
+}
+
+
+    .privacySec h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .privacySec h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 540px;
+    }
+
+    .getInTouch .contMap {
+        height: 540px;
+    }
+
+    .privacySec {
+        padding: 40px 0;
+    }
+
+
+
+    .termsSec h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .termsSec {
+        padding: 40px 0;
+    }
+
+
+    .termsSec h2 {
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 14px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .firmingProcSec .card .card-image {
+        height: 350px;
+    }
+
+
+
+    .dairyProcSec h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .dairyProcSec .card .card-image {
+        height: 350px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .cardImgNo {
+        font-size: 30px;
+        top: -20px;
+        right: 20px;
+    }
+
+    .technological h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+
+
+    .firmingProcSec .card .card-title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .carOlH1 {
+        font-size: 20px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 20px;
+        line-height: 32px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .aboutSec h5 {
+        font-size: 16px;
+    }
+
+    .aboutSec .card {
+        margin-top: 90px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .aboutSec h3 {
+        font-size: 14px;
+    }
+
+
+
+    .aboutSec h2 {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: -20px;
+    }
+
+    .aboutSec {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    .visMisSec h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .visMisSec {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .supplySec h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    margin-bottom: 15px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .ourFarm h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .galSec h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    .galSec h5 {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        font-size: 14px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    footer p.addres {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    footer p.eml {
+        margin-top: -20px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+
+    .callCorn {
+        width: 40px;
+    }
+
+    .whatsappCorn {
+        width: 40px;
+    }
+
+    .moveTop {
+        height: 40px;
+        width: 40px;
+        margin-top: -52px;
+    }
+
+    .moveTop i {
+        font-size: 17px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .newsLetterSec {
+        height: 120px;
+        padding: 37px 0;
+    }
+
+    .galSec {
+        padding:30px 0 10px 0;
+    }
+
+    .ourFarm {
+        padding: 40px 0;
+    }
+
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 25px;
+        padding-top: 25px;
+        MARGIN-RIGHT: 10px;
+    }
+
+    .socialSec {
+        font-size: 20px;
+        height: 80px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 20px;
+    }
+
+    .socialSec .contNow {
+        font-size: 13px;
+        padding: 0 15px;
+    }
+
+    .whyMoo h1 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .whyMoo img {
+        width: 60px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 80px;
+    margin-top: -70px;
+    margin-left: -13px;
+    }
+
+    .whyMoo p {
+        font-size: 14px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        height: 70px;
+        width: 30px;
+        top: 42%;
+    }
+
+    .socialSec .contRow {
+        margin-top: 20px;
+    }
+
+    .enquiryCol {
+        padding-top: 3px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 16px;
+    }
+
+    .teamSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 50px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 60px;
+    }
+
+    .aboutBanner span {
+        font-size: 40px;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 45px;
+    }
+
+    .team h2 {
+        font-size: 24px;
+    }
+
+    .team p {
+        font-size: 20px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 500px;
+    }
+
+    .dairyProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .firmingProcSec img {
+        height: 500px;
+    }
+
+    .firmingProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width: 1401px) and (max-width:1600px) {
+    .getInTouch .row {
+        margin-bottom:5px;
+    }
+    header nav {
+        padding: 0 200px;
+    }
+    .contMap iframe {
+        height: 290px;
+    }
+    .socialSec ul li {
+        padding: 0px 5px;
+    }
+    .getInTouch h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .carRusumeSec {
+        padding-top: 40px;
+    }
+
+    .aplyJobH1 {
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .fileUplo{
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    }
+    .privacySec h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .privacySec h2 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+
+    .getInTouch form {
+        height: 560px;
+    }
+
+    .getInTouch .contMap {
+        height: 560px;
+    }
+
+    .privacySec {
+        padding: 40px 0;
+    }
+
+
+
+    .termsSec h1 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .termsSec {
+        padding: 40px 0;
+    }
+
+
+
+    .termsSec h2 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    html,body {
+        font-size: 15px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .firmingProcSec .card .card-image {
+        height: 350px;
+    }
+
+
+
+    .dairyProcSec h1 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .dairyProcSec .card .card-image {
+        height: 350px;
+    }
+
+    .dairyProcSec .card .card-title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .cardImgNo {
+        font-size: 30px;
+        top: -20px;
+        right: 20px;
+    }
+
+    .technological h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+
+
+    .firmingProcSec .card .card-title {
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .carOlH1 {
+        font-size: 23px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 20px;
+        line-height: 32px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: -25px;
+    }
+
+    .aboutSec h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .aboutSec h5 {
+        font-size: 18px;
+    }
+
+    .aboutSec .card {
+        margin-top: 90px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .aboutSec h3 {
+        font-size: 16px;
+    }
+
+
+
+    .aboutSec h2 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: -21px;
+    }
+
+    .aboutSec {
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    .visMisSec h2 {
+        font-size: 28px;
+    }
+
+
+
+    .visMisSec {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .supplySec h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .supplySec {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+
+    .ourFarm h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .galSec h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+
+    .galSec h5 {
+        font-size: 17px;
+        margin-top: 0px;
+    }
+
+    footer .copRight {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    footer p.addres {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    footer p.eml {
+        margin-top: -20px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    footer .footerSocial i {
+        font-size: 26px;
+    }
+
+    .callCorn {
+        width: 45px;
+    }
+
+    .whatsappCorn {
+        width: 45px;
+    }
+
+    .moveTop {
+        height: 50px;
+        width: 50px;
+        margin-top: -60px;
+    }
+
+    .moveTop i {
+        font-size: 24px;
+    }
+
+    .newsLetterSec button,
+     .newsLetterSec button:hover,
+     .newsLetterSec button:active,
+     .newsLetterSec button:focus {
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .newsLetterSec {
+        height: 120px;
+        padding: 37px 0;
+    }
+
+    .galSec {
+        padding: 40px 0 25px 0;
+    }
+
+    .ourFarm {
+        padding: 40px 0;
+    }
+
+    .socialSec .enquiryCol img {
+        width: 25px;
+        padding-top: 25px;
+        MARGIN-RIGHT: 10px;
+    }
+
+    .socialSec {
+        font-size: 21px;
+        height: 100px;
+    }
+
+    .socialSec .fa-facebook, .socialSec .fa-instagram, .socialSec .fa-linkedin {
+        font-size: 24px;
+    }
+
+    .socialSec .contNow {
+        font-size: 17px;
+        padding: 0 13px;
+    }
+
+    .whyMoo h1 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .whyMoo img {
+        width: 70px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 100px;
+        margin-top: -85px;
+        margin-left: -15px;
+    }
+
+    .whyMoo p {
+        font-size: 14px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 41%;
+    }
+
+    .socialSec .contRow {
+        margin-top: 30px;
+    }
+
+    .enquiryCol {
+        padding-top: 13px !important;
+    }
+
+    .founderChild {
+        height: 370px;
+    }
+
+    .mentorChild {
+        height: 370px;
+    }
+
+    .teamSec h3 {
+        font-size: 16px;
+    }
+
+    .teamSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .teamSec h1 {
+        font-size: 50px;
+    }
+
+    .chkRptFxd, .chkRptFxd:hover, .chkRptFxd:active, .chkRptFxd:focus, .chkRptFxd:visited {
+        letter-spacing: 1px;
+        border: 1px solid #ffffff;
+        padding: 0px 3px;
+        font-size: 17px;
+        height: 189px;
+    }
+
+    .m-1 {
+        margin: 3px;
+    }
+
+    .m-2 {
+        margin: 6px;
+    }
+
+    .m-3 {
+        margin: 14px;
+    }
+
+    .m-4 {
+        margin: 22px;
+    }
+
+    .m-5 {
+        margin: 46px;
+    }
+
+    .mt-1 {
+        margin-top: 3px;
+    }
+
+    .mt-2 {
+        margin-top: 6px;
+    }
+
+    .mt-3 {
+        margin-top: 14px;
+    }
+
+    .mt-4 {
+        margin-top: 22px;
+    }
+
+    .mt-5 {
+        margin-top: 46px;
+    }
+
+    .mb-0 {
+        margin-bottom: 0px !important;
+    }
+
+    .mb-1 {
+        margin-bottom: 3px;
+    }
+
+    .mb-2 {
+        margin-bottom: 6px;
+    }
+
+    .mb-3 {
+        margin-bottom: 14px;
+    }
+
+    .mb-4 {
+        margin-bottom: 22px;
+    }
+
+    .mb-5 {
+        margin-bottom: 46px;
+    }
+
+    .ms-1 {
+        margin-left: 3px;
+    }
+
+    .ms-2 {
+        margin-left: 6px;
+    }
+
+    .ms-3 {
+        margin-left: 14px;
+    }
+
+    .ms-4 {
+        margin-left: 22px;
+    }
+
+    .ms-5 {
+        margin-left: 46px;
+    }
+
+    .me-1 {
+        margin-right: 3px;
+    }
+
+    .me-2 {
+        margin-right: 6px;
+    }
+
+    .me-3 {
+        margin-right: 14px;
+    }
+
+    .me-4 {
+        margin-right: 22px;
+    }
+
+    .me-5 {
+        margin-right: 46px;
+    }
+
+    .p-0 {
+        padding: 0px !important;
+    }
+
+    .p-1 {
+        padding: 3px;
+    }
+
+    .p-2 {
+        padding: 6px;
+    }
+
+    .p-3 {
+        padding: 14px;
+    }
+
+    .p-4 {
+        padding: 22px;
+    }
+
+    .p-5 {
+        padding: 46px;
+    }
+
+    .pt-1 {
+        padding-top: 3px;
+    }
+
+    .pt-2 {
+        padding-top: 6px;
+    }
+
+    .pt-3 {
+        padding-top: 14px;
+    }
+
+    .pt-4 {
+        padding-top: 22px;
+    }
+
+    .pt-5 {
+        padding-top: 46px;
+    }
+
+    .pb-1 {
+        padding-bottom: 3px;
+    }
+
+    .pb-2 {
+        padding-bottom: 6px;
+    }
+
+    .pb-3 {
+        padding-bottom: 14px;
+    }
+
+    .pb-4 {
+        padding-bottom: 22px;
+    }
+
+    .pb-5 {
+        padding-bottom: 46px;
+    }
+
+    .ps-1 {
+        padding-left: 3px;
+    }
+
+    .ps-2 {
+        padding-left: 6px;
+    }
+
+    .ps-3 {
+        padding-left: 14px;
+    }
+
+    .ps-4 {
+        padding-left: 22px;
+    }
+
+    .ps-5 {
+        padding-left: 46px;
+    }
+
+    .pe-1 {
+        padding-right: 1px;
+    }
+
+    .pe-2 {
+        padding-right: 6px;
+    }
+
+    .pe-3 {
+        padding-right: 14px;
+    }
+
+    .pe-4 {
+        padding-right: 22px;
+    }
+
+    .pe-5 {
+        padding-right: 42px !important;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .aboutBanner p {
+        line-height: 32px;
+    }
+
+    .aboutBanner h1 {
+        font-size: 60px;
+    }
+
+    .aboutBanner span {
+        font-size: 40px;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .fs-150 {
+        font-size: 90px;
+    }
+
+    .fs-100 {
+        font-size: 65px;
+    }
+
+    .fs-75 {
+        font-size: 60px;
+    }
+
+    .fs-60 {
+        font-size: 25px;
+    }
+
+    .fs-50 {
+        font-size: 24px;
+    }
+
+    .fs-40 {
+        font-size: 23px;
+    }
+
+    .fs-30 {
+        font-size: 17px;
+    }
+
+    .carousel.aboutCaro {
+        height: 650px;
+    }
+
+    .team h1 {
+        font-size: 45px;
+    }
+
+    .team h2 {
+        font-size: 24px;
+    }
+
+    .team p {
+        font-size: 20px;
+    }
+
+    .farmerBg li, .retailerBg li {
+        font-size: 25px;
+    }
+
+    .carousel.aboutCaro .carousel-item {
+        width: 550px !important;
+        margin-top: -270px;
+        padding: 50px;
+    }
+
+    .whatwedo {
+        width: 430px;
+        padding: 15px 10px 45px 15px;
+        border-radius: 50px;
+    }
+
+    nav ul.desktpUl a {
+        padding: 0 18px;
+    }
+
+    .desktpUl li a {
+        font-size: 14px;
+    }
+
+    .farmerBg, .retailerBg {
+        height: 550px;
+        align-items: center;
+        display: flex;
+    }
+
+    .farmerBg .card {
+        background: #ffffff75;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .retailerBg .card {
+        background: #3e3e3eb5;
+        width: fit-content;
+        margin-left: 22%;
+        margin-right: 25%;
+    }
+
+    .getInTouch {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .aboutBanner .left {
+        background: #f7f6f5;
+        height: 660px;
+    }
+
+    .aboutBanner .right {
+        height: 660px;
+        background-color: rgb(223 220 217);
+        padding: 140px 100px 0 110px;
+    }
+
+    .FruitSec .left {
+        padding: 10px 0px 0px 0px;
+        background: #f7f6f5;
+        height: 570px;
+    }
+
+    .FruitSec .right {
+        height: 570px;
+        background-color: rgb(223 220 217);
+        padding: 0px 100px 0 60px;
+    }
+
+    .FruitSec .fruVege {
+        height: 570px;
+    }
+
+    .FruitSec .left img {
+        position: absolute;
+        left: 0;
+        width: 50%;
+        margin-top: 106px;
+    }
+
+    .dairyProcSec img {
+        height: 500px;
+    }
+
+    .dairyProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .firmingProcSec img {
+        height: 500px;
+    }
+
+    .firmingProcSec {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mooFarm li img, .mooSpring li img {
+        width: 100px;
+    }
+
+    .missionVision {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width: 1601px) and (max-width:1800px) {
+    /* .termsSec h1::after {
+        margin-bottom: 770px;
+    } */
+
+    .termsSec h1 {
+        font-size: 35px;
+    }
+
+    .termsSec h2 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: -5px;
+    }
+
+    .dairyProcSec h1 {
+        font-size: 35px;
+    }
+
+    /* .dairyProcSec h1::after {
+        margin-bottom: 430px;
+    } */
+
+    .dairyProcSec .card .card-title {
+        margin-top: 20px;
+        line-height: 27px;
+        font-size: 20px;
+    }
+
+    .firmingProcSec .card .card-title {
+        margin-top: 20px;
+        line-height: 27px;
+        font-size: 20px;
+    }
+
+    .firmingProcSec h1 {
+        font-size: 35px;
+    }
+
+    /* .firmingProcSec h1::after {
+        margin-bottom: -80px;
+    } */
+
+    .technological h1 {
+        font-size: 35px;
+    }
+/*
+    .technological h1::after {
+        margin-bottom: -595px;
+    } */
+
+    .carOlH1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .carRusumeSec ol {
+        margin-left: 20px;
+    }
+
+    .carRusumeSec p {
+        margin-left: 50px;
+    }
+
+    /* .aplyJobH1::after {
+        left: calc(73% - 25px);
+        margin-bottom: 440px;
+    } */
+
+    select {
+        padding: 0rem 0.75rem;
+        font-size: 19px;
+        line-height: 4.5;
+        height: 2.7rem;
+    }
+
+    .aplyJobH1 {
+        margin-bottom: 50px;
+    }
+
+    .carRusumeSec {
+        padding-top: 40px;
+    }
+
+    .privacySec {
+        padding: 40px 0;
+    }
+
+    .getInTouch h1 {
+        font-size: 32px;
+    }
+
+    .privacySec h1 {
+        font-size: 35px;
+    }
+
+    .privacySec h2 {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: -5px;
+    }
+/*
+    .privacySec h1::after {
+        margin-bottom: 780px;
+    } */
+
+    .whyMoo h1 {
+        font-size: 35px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .ourFarm h1 {
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .galSec h1 {
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .galSec h5 {
+        font-size: 18px;
+    }
+
+    .callCorn {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+    }
+
+    .whatsappCorn {
+        bottom: 20px;
+        left: 20px;
+        width: 50px;
+    }
+
+    .moveTop {
+        height: 55px;
+        width: 55px;
+        margin-top: -60px;
+        left: 48%;
+    }
+
+    .bannerSec .owl-carousel .owl-prev, .bannerSec .owl-carousel .owl-next {
+        top: 43%;
+        height: 90px;
+        width: 35px;
+    }
+
+    .bannerSec .owl-carousel .owl-prev span, .bannerSec .owl-carousel .owl-next span {
+        font-size: 110px;
+        margin-top: -96px;
+        margin-left: -18px;
+    }
+
+    .aboutSec h1 {
+        font-size: 35px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .aboutSec h5 {
+        font-size: 20px;
+    }
+
+    .aboutSec .card {
+        margin-top: 120px;
+        margin-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .aboutSec h3 {
+        font-size: 16px;
+    }
+
+    .visMisSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .visMisSec h2 {
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .supplySec h1 {
+        font-size: 35px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        font-family: Lato-Light;
+    }
+
+    /* .whyMoo h1::after {
+        margin-bottom: -145px;
+    } */
+
+    .newsLetterSec button, .newsLetterSec button:hover, .newsLetterSec button:active, .newsLetterSec button:focus {
+        font-size: 26px;
+        height: 45px;
+    }
+
+    /* .aboutSec h1::after {
+        left: calc(41% - 25px);
+        margin-bottom: 785px;
+    }
+
+    .visMisSec .vison::after {
+        left: 260px;
+        margin-bottom: 255px;
+    }
+
+    .visMisSec .mison::after {
+        right: 259px;
+        margin-bottom: 255px;
+    }
+
+    .supplyH1::after {
+        margin-bottom: -75px;
+    }
+
+    .infraH1::after {
+        margin-bottom: -1445px;
+    } */
+
+    html,body {
+        font-size: 16px;
+    }
+
+    .socialSec .contNow {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+
+    .teamSec h3 {
+        font-size: 18px;
+    }
+
+    .mentorChild {
+        height: 400px;
+    }
+
+    .founderChild {
+        height: 400px;
+    }
+
+    .teamSec h2 {
+        font-size: 35px;
+        margin-top: -10px;
+    }
+
+    [type="checkbox"]+span:not(.lever) {
+        font-size: 20px;
+    }
+
+    .fs-100 {
+        font-size: 50px;
+    }
+
+    ul.mooFarm img, ul.mooSpring img {
+        width: 70%;
+    }
+
+    .mooFarm li, .mooSpring li {
+        padding: 40px 0px;
+    }
+
+    .m-1 {
+        margin: 3px;
+    }
+
+    .m-2 {
+        margin: 6px;
+    }
+
+    .m-3 {
+        margin: 14px;
+    }
+
+    .m-4 {
+        margin: 22px;
+    }
+
+    .m-5 {
+        margin: 46px;
+    }
+
+    .mt-1 {
+        margin-top: 3px;
+    }
+
+    .mt-2 {
+        margin-top: 6px;
+    }
+
+    .mt-3 {
+        margin-top: 14px;
+    }
+
+    .mt-4 {
+        margin-top: 22px;
+    }
+
+    .mt-5 {
+        margin-top: 46px;
+    }
+
+    .mb-0 {
+        margin-bottom: 0px !important;
+    }
+
+    .mb-1 {
+        margin-bottom: 3px;
+    }
+
+    .mb-2 {
+        margin-bottom: 6px;
+    }
+
+    .mb-3 {
+        margin-bottom: 14px;
+    }
+
+    .mb-4 {
+        margin-bottom: 22px;
+    }
+
+    .mb-5 {
+        margin-bottom: 46px;
+    }
+
+    .ms-1 {
+        margin-left: 3px;
+    }
+
+    .ms-2 {
+        margin-left: 6px;
+    }
+
+    .ms-3 {
+        margin-left: 14px;
+    }
+
+    .ms-4 {
+        margin-left: 22px;
+    }
+
+    .ms-5 {
+        margin-left: 46px;
+    }
+
+    .me-1 {
+        margin-right: 3px;
+    }
+
+    .me-2 {
+        margin-right: 6px;
+    }
+
+    .me-3 {
+        margin-right: 14px;
+    }
+
+    .me-4 {
+        margin-right: 22px;
+    }
+
+    .me-5 {
+        margin-right: 46px;
+    }
+
+    .p-0 {
+        padding: 0px !important;
+    }
+
+    .p-1 {
+        padding: 3px;
+    }
+
+    .p-2 {
+        padding: 6px;
+    }
+
+    .p-3 {
+        padding: 14px;
+    }
+
+    .p-4 {
+        padding: 22px;
+    }
+
+    .p-5 {
+        padding: 46px;
+    }
+
+    .pt-1 {
+        padding-top: 3px;
+    }
+
+    .pt-2 {
+        padding-top: 6px;
+    }
+
+    .pt-3 {
+        padding-top: 14px;
+    }
+
+    .pt-4 {
+        padding-top: 22px;
+    }
+
+    .pt-5 {
+        padding-top: 46px;
+    }
+
+    .pb-1 {
+        padding-bottom: 3px;
+    }
+
+    .pb-2 {
+        padding-bottom: 6px;
+    }
+
+    .pb-3 {
+        padding-bottom: 14px;
+    }
+
+    .pb-4 {
+        padding-bottom: 22px;
+    }
+
+    .pb-5 {
+        padding-bottom: 46px;
+    }
+
+    .ps-1 {
+        padding-left: 3px;
+    }
+
+    .ps-2 {
+        padding-left: 6px;
+    }
+
+    .ps-3 {
+        padding-left: 14px;
+    }
+
+    .ps-4 {
+        padding-left: 22px;
+    }
+
+    .ps-5 {
+        padding-left: 46px;
+    }
+
+    .pe-1 {
+        padding-right: 1px;
+    }
+
+    .pe-2 {
+        padding-right: 6px;
+    }
+
+    .pe-3 {
+        padding-right: 14px;
+    }
+
+    .pe-4 {
+        padding-right: 22px;
+    }
+
+    .pe-5 {
+        padding-right: 42px !important;
+    }
+
+    .FruitSec h1 {
+        font-size: 60px;
+    }
+
+    .FruitSec span {
+        font-size: 40px;
+    }
+
+    .getInTouch {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .aboutBanner .left {
+        height: 730px;
+    }
+
+    .aboutBanner .right {
+        height: 730px;
+        padding: 150px 80px 0 150px;
+    }
+
+    .FruitSec .left img {
+        margin-top: 40px;
+        width: 54%;
+    }
+
+    .FruitSec .left {
+        height: 610px;
+    }
+
+    .FruitSec .right {
+        height: 610px;
+    }
+
+    .missionVision {
+        padding: 50px 50px;
+    }
+
+    .fs-150 {
+        font-size: 140px;
+    }
+}
+
+@media (min-width : 1200px) {
+    .firmingProcSec .row {
+        justify-content: center;
+        display: flex;
+    }
+
+    .dairyProcSec .row {
+        justify-content: center;
+        display: flex;
+    }
+
+    .d-flex-1200 {
+        display: flex;
+    }
+
+    .justify-content-center-1200 {
+        justify-content: center;
+    }
+}
