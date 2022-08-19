@@ -1,0 +1,148 @@
+<?php require_once 'db/connection.php'; ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Influencer Management | Influencer Marketing Services in Delhi| Sociapa</title>
+  <meta content="Our Influencer Marketing Services in delhi help find the right influencers for brands to deliver real engagement and make a positive impact on sales." name="descriptison">
+  <meta content="Influencer marketing services in Delhi" name="keywords">
+
+  <link href="img/Fav-Icon.png" rel="icon">
+  <link href="assests/Fav-Icon.png" rel="icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:288,288i,400,400i,600,600i,700,700i|Montserrat:288,288i,400,400i,500,500i,600,600i,700,700i|Poppins:288,288i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link href="assests/Fav-Icon.png" rel="icon">
+
+  <link href="assests/css" rel="stylesheet">
+  <script src="assests/jquery.min.js"></script>
+  <link href="assests/bootstrap.min.css" rel="stylesheet">
+  <link href="assests/icofont.min.css" rel="stylesheet">
+  <link href="assests/boxicons.min.css" rel="stylesheet">
+  <link href="assests/venobox.css" rel="stylesheet">
+  <link href="assests/remixicon.css" rel="stylesheet">
+  <link href="assests/owl.carousel.min.css" rel="stylesheet">
+  <link href="assests/aos.css" rel="stylesheet">
+
+  <link href="assests/style.css" rel="stylesheet">
+  <script src="assests/common.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  
+</head>
+ 
+<body>
+
+  <div class="container-fluid" style="padding: 0px;margin: 0px;">
+    <div class="row" style="padding: 0px;margin: 0px;">
+
+      <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+
+          <div class="logo mr-auto">
+            <h1 class="text-light"><a href="index.php"><img src="assests/BI-Logo.png"></a></h1>
+          </div>
+
+           <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="index.php">Home</a></li>
+
+              <li><a href="influencer-portfolio.php">Our Influencers</a>
+              </li>
+             
+              <li class="drop-down"><a href="influencers.php">Let's Connect</a>
+                <ul>
+                  <li><a href="brand.php">Need Influencers</a></li>
+                  <li class=""><a href="influencers.php">I'm Influencer</a></li>
+                </ul>
+              </li>
+             <li>
+                 
+              <form action="search.php" method="post" enctype="multipart/form-data" class="d-flex">
+                    <input type="text" class='txtSearch form-control' name='search' onkeyup="searchfilter()" id='search'  required placeholder="search here">
+                    <button  type="submit" name="submit" class="btnSearch"><i class="text-dark fa fa-search"></i></button>
+                    <!---AJAX LIVE SEARCH CODE GOES HERE-->
+                 
+                    <?php
+                    
+                        $con = mysqli_connect('localhost','influencer','influencer@2021','influencer');
+                        if (isset($_POST['search'])) {
+                            $name = $_POST['search'];
+                            $Query = "SELECT name FROM influencer WHERE name LIKE '%$name%' LIMIT 5";
+                            $ExecQuery = MySQLi_query($con, $Query);
+                            //Fetching result from database.
+                            while ($Result = MySQLi_fetch_array($ExecQuery)) {
+                 ?>
+   
+
+                        
+                    
+                   
+                 
+                 <!---AJAX LIVE SEARCH CODE END HERE-->
+                 </form>
+                 <li onclick='fill("<?php echo $Result['name']; ?>")'>
+   <a>
+   <!-- Assigning searched result in "Search box" in "search.php" file. -->
+       <?php echo $Result['name']; ?>
+   </li></a>
+   <!-- Below php code is just for closing parenthesis. Don't be confused. -->
+   <?php
+}}
+?>
+                 <div class="ml-3 mt-1 bg-success" id="display"></div>
+           </li>
+            </ul>
+          </nav>
+
+        </div>
+      </header>
+<script>
+function fill(Value) {
+   //Assigning value to "search" div in "search.php" file.
+   $('#search').val(Value);
+   //Hiding "display" div in "search.php" file.
+   $('#display').hide();
+}
+$(document).ready(function() {
+   //On pressing a key on "Search box" in "search.php" file. This function will be called.
+   $("#search").keyup(function() {
+       //Assigning search box value to javascript variable named as "name".
+       var name = $('#search').val();
+       //Validating, if "name" is empty.
+       if (name == "") {
+           //Assigning empty value to "display" div in "search.php" file.
+           $("#display").html("");
+       }
+       //If name is not empty.
+       else {
+           //AJAX is called.
+           $.ajax({
+               //AJAX type is "Post".
+               type: "POST",
+               //Data will be sent to "ajax.php".
+               url: "header.php",
+               //Data, that will be sent to "ajax.php".
+               data: {
+                   //Assigning value of "name" into "search" variable.
+                   search: name
+               },
+               //If result found, this funtion will be called.
+               success: function(html) {
+                   //Assigning result to "display" div in "search.php" file.
+                   $("#display").html(html).show();
+               }
+           });
+       }
+   });
+});
+
+</script>
